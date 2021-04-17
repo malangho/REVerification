@@ -10,7 +10,7 @@ The showcase here allows the comparison of the costs of different versions, with
 
 The code is based on the [EnergyWeb Origin](https://github.com/energywebfoundation/origin/tree/acf41525cb9443113bd548294e040988a2418c23) project and relies on [OpenZeppelin libs](https://github.com/OpenZeppelin/openzeppelin-contracts).
 ## How-To
-The different smart contract versions are distributed in the folders "All” (name extension …all.sol), “Part” (name extension …part.sol) and “Only necessary” (name extension …min.sol). Necessary libraries are found in the folder “libs”. The paths in the contracts are adapted to the folder structure. When using Remix the paths must be adapted accordingly. 
+The different smart contract versions (system instances) are distributed in the folders "All” (name extension …all.sol), “Part” (name extension …part.sol) and “Only necessary” (name extension …min.sol). Necessary libraries are found in the folder “libs”. The paths in the contracts are adapted to the folder structure. When using Remix the paths must be adapted accordingly. 
 In the following guide the filenames are always without any name extension. Depending on which version is to be used, the file must be used with the corresponding name extension.
 Only the REVerification.sol in the folder “All” is fully documented since in the other versions this smart contract is not changed.
 
